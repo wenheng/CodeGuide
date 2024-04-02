@@ -279,7 +279,7 @@ lock: need
 </project>
 ```
 
-- 注意 groupId、artifactId 名字，如果你有发布诉求，需要和你自己的一直。
+- 注意 groupId、artifactId 名字，如果你有发布诉求，需要和你自己的一致。
 - maven-javadoc-plugin：生成 doc 文档。这里要注意，因为我们脚手架不是代码文件，没有doc的，所以要在工程中加一个任意类名文件。工程中小傅哥加了个 Api 类。
 - maven-source-plugin：生成 source 文件。
 - maven-gpg-plugin：是签名的加密文件，需要本地安装过 gpg 包。
